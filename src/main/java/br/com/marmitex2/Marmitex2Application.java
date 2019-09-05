@@ -29,7 +29,7 @@ public class Marmitex2Application implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		Category category = new Category();
-		category.setName("Teste");
+		category.setName("Teste2");
 		LOG.info("Salvando categoria...");
 		Category findByName = repository.findByName(category.getName());
 		if(findByName != null)
